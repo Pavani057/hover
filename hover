@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Hover Demo</title>
+    <style>
+        .hover-button{
+            background-color: lightblue;
+            color:bisque;
+            padding:10px 20px;
+            border: none;
+            cursor:pointer;
+            font-size:16px;        
+        }
+        .hover-button:hover{
+            background-color: darkcyan;
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <button class="hover-button"> click me</button>
+</body>
+</html>   
